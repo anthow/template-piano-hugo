@@ -8,6 +8,6 @@ layout: contact
 # Contact
 
 Vous souhaitez prendre contact avec moi ?  
-N'hésitez pas à me contacter à l'adresse suivante: info@coursdepianoliege.be
+N'hésitez pas à me contacter à l'adresse suivante: **info@coursdepianoliege.be**
 ou en remplissant le formulaire de contact ci-dessous.
 

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body>
+        <div class="container">
+        {{- partial "header.html" . -}}
+        <main>
+        {{- block "main" . }}
+        {{ .Content }}
+
+        {{- end }}
+
+<form
+  action="https://formspree.io/f/mvodpdjl"
+  method="POST"
+>
+  <label>
+    nom  
+</label>
+      <input type="text" name="nom"> <br/>
+  <label>
+  mail  </label>
+
+      <input type="email" name="_replyto"><br/>
+<label>
+  numéro de téléphone</label>
+  <input type="text" name="telephone"><br/>
+  <label>
+    Votre message  </label>
+
+    <textarea name="message"></textarea></br>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Envoyer</button>
+</form>
+        </main>
+        {{- partial "footer.html" . -}}
+    </div>
+        <aside>
+            <img src="../images/cours.jpg" />
+        </aside>
+    </body>
+    
+</html>

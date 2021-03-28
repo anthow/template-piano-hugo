@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body>
+        <div class="container">
+        {{- partial "header.html" . -}}
+        <main>
+        {{- block "main" . }}
+        {{ .Content }}
+
+        {{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+    </div>
+        <aside>
+            <img src="../images/cours.jpg" />
+        </aside>
+    </body>
+    
+</html>

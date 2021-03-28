@@ -1,0 +1,40 @@
+baseURL = "http://example.org/"
+languageCode = "fr"
+title = "cours de piano à Liège"
+theme = "piano"
+
+[params]
+    description = "Cours de piano, clavecin... à Liège"
+
+
+
+[[menu.main]]
+  name = "accueil"
+  url = "/"
+  weight = 100
+
+[[menu.main]]
+  name = "cours"
+  url = "/cours"
+  weight = 200
+
+
+[[menu.main]]
+  name = "parcours"
+  url = "/parcours"
+  weight= 300
+
+  [[menu.main]]
+  name = "contact"
+  url = "/contact"
+  weight=400
+
+  
+
+
+
+
+
+
+
+  
